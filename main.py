@@ -12,7 +12,7 @@ TOKEN = "7701092354:AAEpm090WKlAcVfV_p42d29FMSl3R6igPpA"
 logging.basicConfig(level=logging.INFO)
 
 # Bot va Dispatcher
-bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
+bot = Bot(token=TOKEN)
 dp = Dispatcher()
 
 # Qo‘shiqlar ma’lumotlari (yuqorida keltirilgan)
